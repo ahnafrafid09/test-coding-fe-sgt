@@ -1,0 +1,54 @@
+
+$primary-color: #2B3467;
+$secondary-color: #ECF5FF;
+$decoration-color:#EE667C;
+$white-color: #ffffff;
+$text-color: #333333;
+
+$font-size-base: 16px;
+$font-family-base: 'Ppneuemontreal', Arial, sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  font-family: $font-family-base;
+  background-color: $white-color;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+h1 {
+    color: $primary-color;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Ppneuemontreal, Arial, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 110%;
+    margin: .67em 0;
+    font-size: 2em;
+    margin-top: 20px;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+p {
+    color: #7c7f8d;
+    margin-bottom: 0;
+    line-height: 170%;
+    margin-top: 0;
+}
+
+button, [type=button], [type=reset] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    border: 0;
+}

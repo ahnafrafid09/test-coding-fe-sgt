@@ -1,11 +1,20 @@
-# test-coding-fe-sgt
+# Test Coding FE Summit Global Teknologi
 
 ## Project setup
+### Clone Repository
+Clone the repository GitHub
+```
+git clone https://github.com/ahnafrafid09/test-coding-fe-sgt.git
+cd test-coding-fe-sgt.git
+```
+
+### Install Dependencies
+Run the following command to install all necessary packages:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Run Application
 ```
 npm run serve
 ```
